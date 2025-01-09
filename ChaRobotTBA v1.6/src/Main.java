@@ -1,9 +1,7 @@
-import Utility.ImageHash;
+import Utility.Menu;
 
 public class Main {
     public static void main(String[] args) {
-        ImageHash imageHash = new ImageHash();
-
-        imageHash.getImage("menu");
+        Menu.main(new String[]{});
     }
 }
